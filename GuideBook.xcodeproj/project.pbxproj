@@ -16,6 +16,8 @@
 		23E458D62B385E7F00B4F3C3 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E458D52B385E7F00B4F3C3 /* DataService.swift */; };
 		23E458D82B385EDF00B4F3C3 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E458D72B385EDF00B4F3C3 /* City.swift */; };
 		23E458DA2B385F3500B4F3C3 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E458D92B385F3500B4F3C3 /* Attraction.swift */; };
+		23E458DC2B388B1800B4F3C3 /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E458DB2B388B1800B4F3C3 /* CityCard.swift */; };
+		23E458DE2B388ED800B4F3C3 /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E458DD2B388ED800B4F3C3 /* AttractionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		23E458D52B385E7F00B4F3C3 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		23E458D72B385EDF00B4F3C3 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		23E458D92B385F3500B4F3C3 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
+		23E458DB2B388B1800B4F3C3 /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
+		23E458DD2B388ED800B4F3C3 /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				23E458C92B385E0500B4F3C3 /* Preview Content */,
 				23E458D72B385EDF00B4F3C3 /* City.swift */,
 				23E458D92B385F3500B4F3C3 /* Attraction.swift */,
+				23E458DB2B388B1800B4F3C3 /* CityCard.swift */,
+				23E458DD2B388ED800B4F3C3 /* AttractionRow.swift */,
 			);
 			path = GuideBook;
 			sourceTree = "<group>";
@@ -154,8 +160,10 @@
 			files = (
 				23E458C62B385E0400B4F3C3 /* CityView.swift in Sources */,
 				23E458D42B385E5800B4F3C3 /* DetailsView.swift in Sources */,
+				23E458DE2B388ED800B4F3C3 /* AttractionRow.swift in Sources */,
 				23E458D82B385EDF00B4F3C3 /* City.swift in Sources */,
 				23E458DA2B385F3500B4F3C3 /* Attraction.swift in Sources */,
+				23E458DC2B388B1800B4F3C3 /* CityCard.swift in Sources */,
 				23E458C42B385E0400B4F3C3 /* GuideBookApp.swift in Sources */,
 				23E458D22B385E4600B4F3C3 /* AttractionView.swift in Sources */,
 				23E458D62B385E7F00B4F3C3 /* DataService.swift in Sources */,
