@@ -10,17 +10,19 @@ import SwiftUI
 struct AttractionView: View {
     var city : City
     var body: some View {
-        ScrollView{
+        ScrollView(showsIndicators: false){
             ForEach(city.attractions){ attraction in
                 NavigationLink {
                     DetailsView(attraction: attraction)
                 } label: {
-                    Text(attraction.name)
+                    AttractionRow(attraction: attraction)
+                        .padding(.bottom, 50)
                 }
+                .buttonStyle(.plain)
 
              
             }
-        }
+        }.padding(.horizontal)
     }
 }
 

@@ -20,7 +20,7 @@ struct DataService{
                         summary: "Tsukiji Market is a major tourist attraction for both domestic and overseas visitors in Tokyo. The area contains retail markets, restaurants, and associated restaurant supply stores.",
                         
                         longDescription: """
-"Tsukiji Market (築地市場, Tsukiji shijō) is a major tourist attraction for both domestic and overseas visitors in Tokyo. The area contains retail markets, restaurants, and associated restaurant supply stores. Before 2018, it was the largest wholesale fish and seafood market in the world. The market opened on 11 February 1935 as a replacement for an older market that was destroyed in the 1923 Great Kantō earthquake. It was closed on 6 October 2018, with wholesale operations moving to the new Toyosu Market.
+Tsukiji Market (築地市場, Tsukiji shijō) is a major tourist attraction for both domestic and overseas visitors in Tokyo. The area contains retail markets, restaurants, and associated restaurant supply stores. Before 2018, it was the largest wholesale fish and seafood market in the world. The market opened on 11 February 1935 as a replacement for an older market that was destroyed in the 1923 Great Kantō earthquake. It was closed on 6 October 2018, with wholesale operations moving to the new Toyosu Market.
 
 Located in Tsukiji in central Tokyo between the Sumida River and the upmarket Ginza shopping district, the inner wholesale market was only open to the trade and did not allow access to visitors.
 """,
@@ -107,5 +107,33 @@ On the bottom floor is an exhibit room showing the history and science of animat
         """,
                                imageName: "buckingham", latLong: "51.50148418749087, -0.1410746109020975")
                  ])]
+    }
+    
+    func getFileData() -> [City] {
+        
+            // Get File Path to citydata.json
+            if let url = Bundle.main.url(forResource: "citydata", withExtension: "json") {
+                do {
+                    
+                    //Read the file and turn it into Data
+                    
+                    let data = try Data(contentsOf: url)
+                    // Parse data into Swift instances
+                    let decoder = JSONDecoder() 
+                    
+                    do{
+                        let jsonData = try decoder.decode([City].self, from: data)
+                        return jsonData
+                    }catch{
+                        print("error:\(error)")
+                    }
+                    
+                    
+                    
+                } catch {
+                    print("error:\(error)")
+                }
+            }
+            return [City]()
     }
 }

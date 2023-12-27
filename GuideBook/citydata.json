@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Tokyo",
+    "summary": "Tokyo serves as Japan's economic center and is the seat of both the Japanese government and the Emperor of Japan. Tokyo.",
+    "imageName": "tokyo",
+    "attractions": [
+      {
+        "name": "Tsukiji Outer Market",
+        "summary": "Tsukiji Market is a major tourist attraction for both domestic and overseas visitors in Tokyo. The area contains retail markets, restaurants, and associated restaurant supply stores.",
+        "longDescription": "Tsukiji Market (築地市場, Tsukiji shijō) is a major tourist attraction for both domestic and overseas visitors in Tokyo...",
+        "imageName": "tsukiji",
+        "latLong": "35.66518913611479, 139.76982702573392"
+      },
+      {
+        "name": "Sensō-ji",
+        "summary": "Sensō-ji is an ancient Buddhist temple located in Asakusa, Tokyo, Japan. It is Tokyo's oldest temple, and one of its most significant.",
+        "longDescription": "Sensō-ji (浅草寺, officially Kinryū-zan Sensō-ji (金龍山浅草寺), also known as Asakusa Kannon (浅草観音)) is an ancient Buddhist temple located in Asakusa, Tokyo, Japan...",
+        "imageName": "sensoji",
+        "latLong": "35.714974138640066, 139.79667675457168"
+      },
+      {
+        "name": "Shinjuku Gyo-en",
+        "summary": "Shinjuku Gyo-en is a large park and garden in Shinjuku and Shibuya, Tokyo, Japan. It was originally a residence of the Naitō family in the Edo period.",
+        "longDescription": "The garden, which is 58.3 hectares in area with a circumference of 3.5 km, blends three distinct styles: a French Formal and English Landscape in the north and to the south a Japanese traditional...",
+        "imageName": "shinjukugyoen",
+        "latLong": "35.68512626065214, 139.71080566797045"
+      },
+      {
+        "name": "Ghibli Museum",
+        "summary": "The Ghibli Museum is a museum showcasing the work of the Japanese animation studio Studio Ghibli.",
+        "longDescription": "The Ghibli Museum (三鷹の森ジブリ美術館, Mitaka no Mori Jiburi Bijutsukan, Mitaka Forest Ghibli Museum) is a museum showcasing the work of the Japanese animation studio Studio Ghibli...",
+        "imageName": "ghibli",
+        "latLong": "35.696794229887736, 139.57038850594148"
+      }
+    ]
+  },
+  {
+    "name": "Rome",
+    "summary": "Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome, and a special comune named Comune di Roma Capitale.",
+    "imageName": "rome",
+    "attractions": [
+      {
+        "name": "Pantheon",
+        "summary": "The Pantheon is a former Roman temple and, since 609 AD, a Catholic church in Rome, Italy, on the site of an earlier temple commissioned by Marcus Agrippa during the reign of Augustus.",
+        "longDescription": "The Pantheon from Greek is a former Roman temple and, since 609 AD, a Catholic church (Basilica di Santa Maria ad Martyres or Basilica of St. Mary and the Martyrs) in Rome, Italy...",
+        "imageName": "pantheon",
+        "latLong": "41.898762500696236, 12.476915812472798"
+      }
+    ]
+  },
+  {
+    "name": "Paris",
+    "summary": "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.",
+    "imageName": "paris",
+    "attractions": [
+      {
+        "name": "Louvre Museum",
+        "summary": "The Louvre, or the Louvre Museum is a national art museum in Paris, France.",
+        "longDescription": "The Louvre or the Louvre Museum is a national art museum in Paris, France. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement...",
+        "imageName": "louvre",
+        "latLong": "48.860752239687095, 2.337686912770478"
+      }
+    ]
+  },
+  {
+    "name": "London",
+    "summary": "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times.",
+    "imageName": "london",
+    "attractions": [
+      {
+        "name": "Buckingham Palace",
+        "summary": "Buckingham Palace is a London royal residence and the administrative headquarters of the monarch of the United Kingdom. Located in the City of Westminster, the palace is often at the centre of state occasions and royal hospitality.",
+        "longDescription": "Buckingham Palace is a London royal residence and the administrative headquarters of the monarch of the United Kingdom. Located in the City of Westminster...",
+        "imageName": "buckingham",
+        "latLong": "51.50148418749087, -0.1410746109020975"
+      }
+    ]
+  }
+]
